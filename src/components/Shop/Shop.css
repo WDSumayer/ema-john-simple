@@ -1,0 +1,16 @@
+.shop-area{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap:10px;
+    
+}
+.products-container, .cart-container{
+    border:1px solid red;
+   
+}
+.products-container{
+    padding:20px 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
